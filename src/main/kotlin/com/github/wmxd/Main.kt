@@ -80,7 +80,7 @@ fun getPersons(request: Request): Response {
 fun main(args: Array<String>) {
     HikariCP.default("jdbc:sqlite:sample.db", "", "")
 
-    using(sessionOf(HikariCP.dataSource())) { sesssion ->
+    using(dbSession()) { sesssion ->
         sesssion.transaction { transaction ->
             transaction.execute(queryOf("drop table if exists person"))
             transaction.execute(queryOf("create table person (id integer primary key autoincrement, name string not null)"))
