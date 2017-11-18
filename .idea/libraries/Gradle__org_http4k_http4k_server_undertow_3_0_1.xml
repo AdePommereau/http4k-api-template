@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.http4k:http4k-server-undertow:3.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-server-undertow/3.0.1/13e3aee4ecca1afcec5b6939554266405c9fc84e/http4k-server-undertow-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-server-undertow/3.0.1/b1005d3aa17081586e28cee1dfec343e6e423990/http4k-server-undertow-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
